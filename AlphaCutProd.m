@@ -1,6 +1,9 @@
 function [ Z ] = AlphaCutProd( X, Y, alpha )
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+% calculates multiplication of two fuzzy numbers using alpha cut method
+% param: A input fuzzy number
+% param: B input fuzzy number
+% param: alpha alpha cut parameter
+% return: Z fuzzy number, result of multiplication A*B using alpha cut method
     a = X(1);
     b = X(2); 
     c = X(3); 

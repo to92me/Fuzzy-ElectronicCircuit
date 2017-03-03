@@ -1,6 +1,9 @@
 function [ Z ] = AlphaCutDiv( X, Y, alpha )
-%UNTITLED4 Summary of this function goes here
-%   Detailed explanation goes here
+% calculates division of two fuzzy numbers using alpha cut method
+% param: A input fuzzy number
+% param: B input fuzzy number
+% param: alpha alpha cut parameter
+% return: Z fuzzy number, result of alfa cut division A/B 
     a = X(1);
     b = X(2); 
     c = X(3); 

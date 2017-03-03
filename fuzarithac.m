@@ -1,6 +1,10 @@
 function [ Z ] = fuzarithac( X , Y, alpha, method )
-%UNTITLED5 Summary of this function goes here
-%   Detailed explanation goes here
+% calculates given operation of two fuzzy numbers using alpha cut method
+% param: X input fuzzy number 
+% param: Y input fuzzy number
+% param: alpha alpha cut parameter
+% param: method operation that is performed on operands X nad Y 
+% return: Z fuzzy number, result of given operation using alpha cut method    
     switch method
         case 'sub'
             Z = AlphaCutSub(X,Y,alpha);
